@@ -1,0 +1,5 @@
+npm install -g create-react-app
+create-react-app app1
+npm start
+for activating the routing in reactjs, run the command :npm i react-router-dom
+npm i react-router-dom

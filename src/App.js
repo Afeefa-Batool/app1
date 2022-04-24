@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Services from './components/Services'
+import About from './components/About'
+import "./App.css"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 style={{color: "red"}}>welcome to react</h1>
+      <p className='li1'>sample site to uder stad react</p>
+   
+    <Services />
+<About />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+// javascript k code k ander hmny html ka code likhna hy
